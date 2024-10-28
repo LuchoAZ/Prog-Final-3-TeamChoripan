@@ -7,10 +7,10 @@
   <title>Agregar Empresa</title>
 </head>
 <body>
-  <!-- Botón para abrir el popup -->
+ 
   <button id="openPopupBtn" class="add-company-btn">Agregar una empresa</button>
 
-  <!-- Popup -->
+ 
   <div id="popup" class="popup">
     <div class="popup-content">
       <h2>Crear una empresa</h2>
