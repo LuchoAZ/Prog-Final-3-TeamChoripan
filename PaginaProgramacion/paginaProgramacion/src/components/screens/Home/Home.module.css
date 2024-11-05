@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.containerView {
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+}
+
+
+.asideContainer {
+    background-color: #55C1C5;
+    border-color: #15F6FE;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; 
+    max-height: 100vh;
+    overflow-y: auto;
+    padding-top: 2rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.asideContainer button {
+    background-color: transparent;
+    border: 1px solid #15F6FE; 
+    color: #15F6FE;
+    width: 12vw; 
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-weight: bold; 
+}
+
+.asideContainer button:hover {
+    background-color: #15F6FE;
+    color: #55C1C5;
+    border: 1px solid #55C1C5;
+}
+
+.mainContainer {
+    position: relative; 
+    background-color: #EAFCFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    height: 100vh;
+    gap: 1.5rem;
+}
+
+.agregarSucursalButton {
+    position: absolute !important;
+    top: 1rem !important;
+    right: 1rem !important;
+    background-color: transparent !important;
+    border: 1px solid #15F6FE !important;
+    color: #15F6FE !important;
+    width: 12vw !important;
+    padding: 0.5rem !important;
+    border-radius: 0.4rem !important;
+    font-weight: bold !important;
+    margin: 1rem;
+    margin-right: 3rem;
+}
+
+.agregarSucursalButton:hover {
+    background-color: #15F6FE !important;
+    color: #EAFCFF !important;
+    border: 1px solid #EAFCFF !important;
+}
+
+.containerButtonSucursal button {
+    background-color: transparent;
+    color: #15F6FE;
+    border: 1px solid #15F6FE; 
+    width: 12vw;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.containerSucursales {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    height: 100%;
+    border: 1px solid transparent;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+.ModalEmpresaContainer {
+    background-color: #C7C7C7;
+    border: 1px solid #FFFFFF;
+    width: 12rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px #000000;
+    overflow: hidden; 
+}
+
+.ModalEmpresaContainer h3 {
+    font-size: 1.5rem;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 0.3rem;
+}
+
+.ModalEmpresaButtons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalEmpresaContainer button {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.7rem;
+}
+
+.ModalEmpresaContainer button:hover {
+    border: none;
+    color: #C7C7C7;
+    background-color: #FFFFFF;
+}
+
+.ModalEmpresaContainer button span {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.ModalSucursalContainer {
+    background-color: #55C1C5;
+    border: 1px solid #FFFFFF;
+    width: 12rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px #000000;
+    overflow: hidden; 
+}
+
+.ModalSucursalContainer h3 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 0.3rem;
+}
+
+.ModalSucursalButtons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+} 
+
+.ModalSucursalContainer button {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.7rem;
+}
+
+.ModalSucursalContainer button:hover {
+    border: none;
+    color: #55C1C5;
+    background-color: #FFFFFF;
+}
+
+.ModalSucursalContainer button span {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}

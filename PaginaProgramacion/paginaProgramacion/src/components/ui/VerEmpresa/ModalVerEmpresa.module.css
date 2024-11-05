@@ -1,0 +1,29 @@
+.modalContainer {
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 690px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.modalContainer h2 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.modalContainer p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.VerButton {
+    background-color: #29D142 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}

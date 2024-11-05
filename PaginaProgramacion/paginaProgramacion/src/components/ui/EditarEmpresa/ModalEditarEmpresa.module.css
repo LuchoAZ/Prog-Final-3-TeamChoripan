@@ -1,0 +1,74 @@
+.modalContainer {
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 1rem;
+    border-radius: 10px;
+    width: 420px;
+    padding: 10px;
+    height: 90vh;
+    max-width: 690px;
+    max-height: 120vh;
+}
+
+.modalContainer h2 {
+    text-align: center;
+    font-size: 24px;
+    width: 274px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+}
+
+.modalContainer input,
+.modalContainer label {
+    width: 324px;
+    color: #A0A0A0;
+}
+
+.imagenModal {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    color: #A0A0A0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    width: 324px;
+    height: 100px;
+}
+
+
+.imagenModal button {
+    width: 50% !important;
+    background-color: transparent !important;
+    border: 1px solid #EC090D !important;
+    color: #EC090D !important;
+}
+
+.imagenModal button label {
+    width: 100%;
+    color: #EC090D !important;
+}
+
+.containerButton {
+    width: 324px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmButton {
+    background-color: transparent !important;
+    border: 1px solid #29D142 !important;
+    color: #29D142 !important;
+}
+
+.cancelButton {
+    background-color: transparent !important;
+    border: 1px solid #EC090D !important;
+    color: #EC090D !important;
+}
