@@ -27,12 +27,12 @@
 .modalContainer input,
 .modalContainer label {
     width: 324px;
-    color: #A0A0A0;
+    color: #444444;
 }
 
 .imagenModal {
-    background-color: #FFFFFF;
-    border: 1px solid #E0E0E0;
+    background-color: #FFFFFF !important;
+    border: 1px solid #E0E0E0 !important;
     color: #A0A0A0;
     display: flex;
     align-items: center;
@@ -71,4 +71,16 @@
     background-color: transparent !important;
     border: 1px solid #EC090D !important;
     color: #EC090D !important;
+}
+
+.confirmButton:hover {
+    background-color: #29D142 !important;
+    border: none !important;
+    color: #FFFFFF !important;
+}
+
+.cancelButton:hover {
+    background-color: #EC090D !important;
+    border: none !important;
+    color: #FFFFFF !important;
 }

@@ -1,6 +1,6 @@
 .modalContainer {
     background-color: #FFFFFF;
-    color: black;
+    color: #444444;
     display: flex;
     flex-direction: column;
     justify-content: center;    
@@ -49,6 +49,12 @@
     color: #EC090D !important;
 }
 
+.imagenModal button:hover {
+    background-color: #EC090D !important;
+    border: none !important;
+    color: #FFFFFF !important;
+}
+
 .containerButton {
     width: 324px;
     display: flex;
@@ -65,4 +71,16 @@
     background-color: transparent !important;
     border: 1px solid #EC090D !important;
     color: #EC090D !important;
+}
+
+.confirmButton:hover {
+    background-color: #29D142 !important;
+    border: none !important;
+    color: #FFFFFF !important;
+}
+
+.cancelButton:hover {
+    background-color: #EC090D !important;
+    border: none !important;
+    color: #FFFFFF !important;
 }

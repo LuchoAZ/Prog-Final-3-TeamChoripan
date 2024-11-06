@@ -99,6 +99,16 @@
     margin-top: 1.5rem;
 }
 
+.containerSucursales img {
+    width: 150px; 
+    height: 150px; 
+    padding: 10px; 
+}
+
+.containerSucursales h3 {
+    font-size: 1rem !important;
+}
+
 
 
 
@@ -114,13 +124,23 @@
     align-items: center;
     text-align: center;
     border-radius: 0.4rem;
-    margin: 1rem;
-    box-shadow: 5px 5px 5px #000000;
+    margin: 1.5rem;
+    box-shadow: 5px 5px 5px #357779;
     overflow: hidden; 
+    cursor: pointer;
 }
 
 .ModalEmpresaContainer h3 {
     font-size: 1.5rem;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 0.3rem;
+}
+
+.ModalEmpresaContainer h4 {
+    font-size: 1rem;
     text-overflow: ellipsis; 
     white-space: nowrap;
     overflow: hidden;
@@ -174,13 +194,23 @@
     text-align: center;
     border-radius: 0.4rem;
     margin: 1rem;
-    box-shadow: 5px 5px 5px #000000;
+    box-shadow: 5px 5px 5px #0d9da2;
     overflow: hidden; 
 }
 
 .ModalSucursalContainer h3 {
     color: #FFFFFF;
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 0.3rem;
+}
+
+.ModalSucursalContainer h4 {
+    color: #FFFFFF;
+    font-size: 1rem;
     text-overflow: ellipsis; 
     white-space: nowrap;
     overflow: hidden;

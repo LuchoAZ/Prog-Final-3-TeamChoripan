@@ -1,13 +1,12 @@
-import { Provider } from 'react-redux'
-import { store } from './redux/store/store'
-import { AppRouter } from './routes/AppRouter'
+import { Home } from "./components/screens/Home/Home";
+
 
 function App() {
   return (
-    <Provider store={store} >
-      <AppRouter />
-    </Provider>
-  )
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App

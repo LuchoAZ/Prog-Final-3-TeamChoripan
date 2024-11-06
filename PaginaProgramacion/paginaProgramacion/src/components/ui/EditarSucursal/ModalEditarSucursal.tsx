@@ -155,7 +155,9 @@ export const ModalEditarSucursal: React.FC<ModalEditarSucursalProps> = ({ sucurs
                             style={{ maxWidth: '90%', maxHeight: '90%', objectFit: 'cover' }}
                         />
                     ) : (
-                        <span className="material-symbols-outlined" style={{ scale: '2.8' }}>no_photography</span>
+                        <span style={{ maxWidth: '70%', maxHeight: '70%', objectFit: 'cover', fontSize: '4rem' }} class="material-symbols-outlined">
+                            photo_camera
+                        </span>
                     )}
                 </div>
             </div>

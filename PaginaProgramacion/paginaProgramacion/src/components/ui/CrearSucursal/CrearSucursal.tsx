@@ -9,7 +9,7 @@ interface ModalSucursalProps {
     handleCloseModalSucursal: () => void;
 }
 
-export const ModalSucursal: FC<ModalSucursalProps> = ({ handleAddSucursal, handleCloseModalSucursal }) => {
+export const CrearSucursal: FC<ModalSucursalProps> = ({ handleAddSucursal, handleCloseModalSucursal }) => {
     const { values, handleChange, resetForm } = useForm<ISucursal>({
         id: 0,
         nombre: '',
@@ -57,14 +57,14 @@ export const ModalSucursal: FC<ModalSucursalProps> = ({ handleAddSucursal, handl
                         type="time"
                         name="apertura"
                         className={styles.smallInput}
-                        value={values.apertura}
+                        value={values.horarioApertura}
                         onChange={handleChange}
                     />
                     <Form.Control
                         type="time"
                         name="cierre"
                         className={styles.smallInput}
-                        value={values.cierre}
+                        value={values.horarioApertura}
                         onChange={handleChange}
                     />
                 </div>
@@ -162,7 +162,9 @@ export const ModalSucursal: FC<ModalSucursalProps> = ({ handleAddSucursal, handl
                             style={{ maxWidth: '70%', maxHeight: '70%', objectFit: 'cover' }}
                         />
                     ) : (
-                        <span className="material-symbols-outlined" style={{ scale: '2.8' }}>no_photography</span>
+                        <span style={{ maxWidth: '70%', maxHeight: '70%', objectFit: 'cover', fontSize: '4rem' }} class="material-symbols-outlined">
+                            photo_camera
+                        </span>
                     )}
                 </div>
             </div>
