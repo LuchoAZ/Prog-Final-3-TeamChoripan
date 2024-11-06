@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Agregar Empresa</title>
+</head>
+<body>
+ 
+  <button id="openPopupBtn" class="add-company-btn">Agregar una empresa</button>
+
+ 
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <h2>Crear una empresa</h2>
+      <form id="companyForm">
+        <input type="text" placeholder="Ingresa un nombre" required />
+        <input type="text" placeholder="Ingresa una razon social" required />
+        <input type="text" placeholder="Ingresa un cuit" required />
+        <div class="image-upload">
+          <button type="button" class="image-btn">Elige una imagen</button>
+          <img src="placeholder.png" alt="No photo" class="image-placeholder" />
+        </div>
+        <div class="popup-buttons">
+          <button type="button" id="cancelBtn" class="cancel-btn">Cancelar</button>
+          <button type="submit" class="confirm-btn">Confirmar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
