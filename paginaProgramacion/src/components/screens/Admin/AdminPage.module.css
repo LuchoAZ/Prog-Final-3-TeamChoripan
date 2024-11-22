@@ -1,0 +1,85 @@
+.containerView {
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    width: 100%;
+}
+
+
+.asideContainer {
+    background-color: #55C1C5;
+    border-color: #15F6FE;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; 
+    max-height: 100vh;
+    overflow-y: auto;
+    padding-top: 2rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.asideButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 14%;
+    gap: 1rem;
+    width: 75%;
+}
+
+.asideButtonsContainer Button {
+    background-color: transparent !important; 
+    border: 1px solid #FFFFFF !important; 
+    color: #FFFFFF !important;
+}
+
+.asideButtonsContainer Button:hover {
+    background-color: #FFFFFF !important;
+    color: #55C1C5 !important;
+    border: none !important;
+}
+
+.mainContainer {
+    position: relative; 
+    background-color: #EAFCFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    height: 100vh;
+    gap: 1.5rem;
+}
+
+.mainContainer Button {
+    background-color: transparent !important;
+    border: 1px solid #15F6FE !important;
+    color: #15F6FE !important;
+}
+
+.mainContainer Button:hover {
+    background-color: #15F6FE !important;
+    color: #EAFCFF !important;
+    border: none !important;
+}
+
+Table {
+    width: 60vw;
+    background-color: #55C1C5 !important;
+    box-shadow: 5px 5px 5px #0d9da2;
+    border: 1px solid #1c1c1c;
+    border-radius: 0.4rem;
+    margin-top: 0.4rem;
+    max-width: 100% !important;
+}
+
+th {
+    background-color: #55C1C5 !important;
+    color: #FFFFFF !important;
+}
+
+.material-symbols-outlined {
+    background-color: red !important;
+}
